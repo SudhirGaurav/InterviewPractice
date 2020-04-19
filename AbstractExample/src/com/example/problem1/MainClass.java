@@ -6,7 +6,7 @@ public class MainClass {
 		// TODO Auto-generated method stub
 		
 		BaseClass	baseClass = new BaseClass();
-		//baseClass.t
+		System.out.println("Hiiiiii");
 
 	}
 
