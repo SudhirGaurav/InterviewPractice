@@ -1,1 +1,18 @@
-Thisd is simply for pushing into git.
+
+
+1.Change the current working directory to your local project.
+2.Initialize the local directory as a Git repository.
+	git init
+3.Add the files in your new local repository. This stages them for the first commit.
+	git add .
+4.Commit the files that you’ve staged in your local repository.
+	git commit -m "initial commit"
+5.Copy the https url of your newly created repo
+	In the Command prompt, add the URL for the remote repository where your local repository will be pushed.
+
+6.git remote add origin remote repository URL[Important line..]
+
+	git remote -v Push the changes in your local repository to GitHub.
+
+7.git push -f origin master
+That’s all
