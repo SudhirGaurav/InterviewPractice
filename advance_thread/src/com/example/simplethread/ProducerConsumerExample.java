@@ -3,11 +3,11 @@ package com.example.simplethread;
 import java.util.ArrayList;
 import java.util.List;
 
-class RunnableThread implements Runnable{
+class ProducingList implements Runnable{
 
 	List<String> list;
 	private static final int MAX_LIST_SIZE=1;
-	public RunnableThread(List list) {
+	public ProducingList(List list) {
 		this.list=list;
 	}
 	@Override
@@ -73,7 +73,7 @@ public class ProducerConsumerExample {
 	public static void main(String[] args) throws InterruptedException {
 
 		List<String> sharedList = new ArrayList<>();
-		Thread t1 = new Thread(new RunnableThread(sharedList));
+		Thread t1 = new Thread(new ProducingList(sharedList));
 		t1.start();
 		//t1.join(); // Curret thread [main - thread ] will wait untill t1 finish his task
 		Thread t2 = new Thread(new ConsumingList(sharedList));
