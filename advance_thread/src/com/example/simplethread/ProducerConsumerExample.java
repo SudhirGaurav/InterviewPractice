@@ -78,11 +78,10 @@ public class ProducerConsumerExample {
 		//t1.join(); // Curret thread [main - thread ] will wait untill t1 finish his task
 		Thread t2 = new Thread(new ConsumingList(sharedList));
 		t2.start();
-		
 	}
 }
-
 /*Concept after writting code:
 1. Both Thread doing IPC by common object list .
+2. Read monitor fr better understanding
 
 */
