@@ -49,6 +49,8 @@ public class AddingSquareOfArray {
 	Future<Integer> future =es.submit(task);
 	int retValue = future.get();
 	System.out.println("Sum value is : "+retValue);
+	
+	es.shutdown();
 	}
 
 }
