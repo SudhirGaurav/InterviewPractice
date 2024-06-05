@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="AbstractExample/src"/>
+	<classpathentry kind="src" path="advance_thread/src"/>
+	<classpathentry kind="src" path="Cache_LRU/src"/>
+	<classpathentry kind="src" path="custom_Immutable_class/src"/>
+	<classpathentry kind="output" path="AbstractExample/bin"/>
+</classpath>
