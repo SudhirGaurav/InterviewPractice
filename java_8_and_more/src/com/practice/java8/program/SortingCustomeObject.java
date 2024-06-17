@@ -1,7 +1,5 @@
 package com.practice.java8.program;
 
-//class Employ
-
 
 public class SortingCustomeObject {
 
