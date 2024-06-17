@@ -18,7 +18,9 @@ public class LambdaEWithDefaultMethodIntereface {
 	public static void main(String[] args) {
 		
 		LembdaExpTest obj = () -> "return for declared Method"; // Implementation
-		System.out.println(obj.test());
+		System.out.println(obj.test()); // calling declared method 
+		obj.show(); // calling default method
+		LembdaExpTest.show2(); // calling static method 
 	}
 
 }
