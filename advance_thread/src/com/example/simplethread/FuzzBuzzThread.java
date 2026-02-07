@@ -44,9 +44,9 @@ public class FuzzBuzzThread {
 		t2.setName("second");
 		t2.start();
 		
-		t1.join();
-		t2.join();
-		System.out.println("End *******************");
+		//t1.join();
+		//t2.join();
+		//System.out.println("End *******************");
 
 	}
 }

@@ -1,0 +1,63 @@
+
+
+Core Java 8 Features
+
+What are the main features introduced in Java 8?
+
+What is a functional interface? Give some examples from java.util.function.
+
+How are lambda expressions different from anonymous classes?
+
+Explain method references and their types.
+
+What is a default method in interfaces? Why was it introduced?
+
+What is an Optional? How does it help avoid NullPointerException?
+
+Explain Stream API. How is it different from Collections?
+
+Difference between intermediate and terminal operations in Streams.
+
+What are lazy operations in Streams?
+
+Difference between map() and flatMap().
+
+🔹 Coding / Problem Solving
+
+Given a list of integers, find the second highest number using Streams.
+
+Given a list of strings, count how many start with a given character using lambda.
+
+Convert a list of objects into a map with key = id and value = object using Collectors.toMap().
+
+From a list of employees, group them by department and count employees in each dept.
+
+Find the first non-repeated character in a string using Streams.
+
+Sort a list of employees by salary in descending order using lambda.
+
+Given a list of numbers, find the sum of squares of even numbers.
+
+Remove duplicates from a list using Streams.
+
+🔹 Advanced / Tricky
+
+Difference between Stream.of() and Arrays.stream().
+
+Can we modify a collection while iterating with Streams? Why/why not?
+
+What is the difference between findFirst() and findAny()?
+
+Explain parallelStream(). When should you avoid it?
+
+How does CompletableFuture work?
+
+Difference between reduce() and collect().
+
+How does Collectors.groupingBy() internally work?
+
+What happens if two default methods conflict in multiple interfaces?
+
+What is the difference between Predicate, Function, and Consumer?
+
+Why were default and static methods added to interfaces?
